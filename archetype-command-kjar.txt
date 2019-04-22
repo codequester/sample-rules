@@ -1,0 +1,4 @@
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+
+
+mvn archetype:generate -B -DarchetypeGroupId=org.kie -DarchetypeArtifactId=kie-drools-archetype -DarchetypeVersion=7.20.0.Final -DgroupId=com.sample.kjar -DartifactId=sample-rules -Dversion=1.0-SNAPSHOT -Dpackage=drools.project
